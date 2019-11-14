@@ -15,10 +15,8 @@ public class OtherService {
         return res;
     }
 
-
     public Integer add(int a, int b) {
         Integer res = a + b;
         return res;
     }
-
 }

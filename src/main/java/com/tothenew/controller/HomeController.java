@@ -25,7 +25,6 @@ public class HomeController {
         otherService.add(2, 3);
         otherService.multiply(2, 3);
 
-
         return "1234";
     }
 
@@ -40,6 +39,4 @@ public class HomeController {
 
         return "ABCD";
     }
-
-
 }

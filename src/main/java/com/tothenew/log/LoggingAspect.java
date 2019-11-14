@@ -13,7 +13,6 @@ import java.lang.reflect.Method;
 @Aspect
 public class LoggingAspect {
 
-
     @Around(value = "@within(com.tothenew.log.Loggable) || @annotation(com.tothenew.log.Loggable)")
     public Object around(ProceedingJoinPoint proceedingJoinPoint) throws Throwable {
 

@@ -8,7 +8,6 @@ import org.springframework.boot.logging.LogLevel;
  */
 public class LogWriter {
 
-
     public static void write(Class clazz, LogLevel logLevel, String message) {
         Logger logger = Logger.getLogger(clazz);
 
@@ -36,5 +35,4 @@ public class LogWriter {
                 break;
         }
     }
-
 }
